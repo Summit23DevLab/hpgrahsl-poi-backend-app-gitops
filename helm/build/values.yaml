@@ -1,0 +1,15 @@
+app:
+  name: poi-backend-app
+  namespace: hpgrahsl-dev
+  cluster: .apps.summit23.0x74.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23DevLab/hpgrahsl-poi-backend-app
+  org: Summit23DevLab
+  name: hpgrahsl-poi-backend-app
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: hpgrahsl-dev/poi-backend-app
+  tag: latest
